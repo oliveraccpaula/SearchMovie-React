@@ -1,0 +1,62 @@
+.App {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.MoviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+.MoviesList-item {
+  margin-bottom: 15px;
+  width: 30%;
+}
+
+.page{
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 70px;
+}
+
+.page h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+ 
+  
+}
+
+.page h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  
+}
+
+.plot{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.poster:hover {
+
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
